@@ -1,7 +1,7 @@
 public class lesson3_hw {
 
     public static void main(String[] args) {
-        ListNode node = new ListNode(3, new ListNode(1, new ListNode(2, new ListNode(4))));
+        ListNode node = new ListNode(2, new ListNode(5, new ListNode(1, new ListNode(4))));
         System.out.println(size(node));
         System.out.println(asString(node));
 
